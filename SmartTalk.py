@@ -160,6 +160,5 @@ if __name__ == '__main__':
     answer = getSmartAnswer(audioASRResult)
     answerTTSAudioFile=baiduTTS(answer)
     playMP3(pwd+"\\"+answerTTSAudioFile)
-    #playMP3("E:\\Robot\\Source\\baidu\\AudioRecord20181022175802.wav")
 
     print( 'Enjoy and submit your improvement!' )
